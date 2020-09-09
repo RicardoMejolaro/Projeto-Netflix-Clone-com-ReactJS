@@ -3,6 +3,8 @@ import Api from './Api';
 
 import './App.css';
 
+import loading from '../src/assets/loading.gif';
+
 import MovieRow from './components/MovieRow';
 import FeaturedMovie from './components/FeaturedMovie';
 import Header from './components/Header';
@@ -65,6 +67,12 @@ export default () => {
         <p>Direitos de imagens para a <span>&copy;</span> Netflix e demais envolvidos.</p> 
         <p>Utilizada a API do site themoviedb.org</p>
       </footer>
+
+      {movieList <= 0 &&
+        <div className="loading">
+          <img src={loading} alt="Carregando"/>
+        </div>
+      }
     </div>
   );
 }
