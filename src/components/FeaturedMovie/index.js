@@ -4,6 +4,10 @@ import './styles.css';
 export default ({item}) => {
   /*Pegando apenas o ano de lançamento da atração */
   let firstDate = new Date(item.first_air_date);
+  
+  /*Limitando caracteres da descrição */
+  let description = item.overview.substr(0, 300);
+
   /*Pegando generos da atração */
   let genres = [];
   for (const genre in item.genres) {
@@ -27,7 +31,7 @@ export default ({item}) => {
             <div className="featured-points">{item.vote_average} pontos</div>
             <div className="featured-year">{firstDate.getFullYear()}</div>
             <div className="featured-seasons">{item.number_of_seasons} temporada{item.number_of_seasons !== 1 ? 's' : ''}</div>
-            <div className="featured-description">{item.overview}</div>
+            <div className="featured-description">{description}{description.length >= 300 ? '...' : ''}</div>
 
             <div className="featured-buttons">
               <a className="featured-watch-button" href={`/watch/${item.id}`}>► Assitir</a>
