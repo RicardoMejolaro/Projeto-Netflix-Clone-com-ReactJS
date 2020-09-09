@@ -3,11 +3,12 @@
 }
 
 .movieRow h2 {
+  font-size: 1rem;
   margin-left: 30px; 
 }
 .movieRow-listArea {
   overflow-x: hidden;
-  padding-left: 3rem;
+  padding-left: 1.5rem;
 }
 
 .movieRow-list {
