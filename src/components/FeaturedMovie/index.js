@@ -1,4 +1,5 @@
 import React from 'react';
+
 import './styles.css';
 
 export default ({item}) => {
@@ -34,7 +35,7 @@ export default ({item}) => {
             <div className="featured-description">{description}{description.length >= 300 ? '...' : ''}</div>
 
             <div className="featured-buttons">
-              <a className="featured-watch-button" href={`/watch/${item.id}`}>► Assitir</a>
+              <a className="featured-watch-button" href={`/watch/${item.id}`}>► Assistir</a>
               <a className="featured-mylist-button" href={`/list/add/${item.id}`}>+ Minha Lista</a>
             </div>
             <div className="featured-genres">Gêneros: {genres.join(', ')}.</div>
