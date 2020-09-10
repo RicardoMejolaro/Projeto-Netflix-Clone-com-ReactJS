@@ -1,5 +1,8 @@
 import React from 'react';
 
+import PlayArrowIcon from '@material-ui/icons/PlayArrow';
+import InfoOutlinedIcon from '@material-ui/icons/InfoOutlined';
+
 import './styles.css';
 
 export default ({item}) => {
@@ -38,8 +41,8 @@ export default ({item}) => {
             <div className="featured-description">{description}</div>
 
             <div className="featured-buttons">
-              <a className="featured-watch-button" href={`/watch/${item.id}`}>► Assistir</a>
-              <a className="featured-mylist-button" href={`/list/add/${item.id}`}>+ Minha Lista</a>
+              <a className="featured-watch-button" href={`/watch/${item.id}`}><PlayArrowIcon style={{marginRight: 5}} />Assistir</a>
+              <a className="featured-mylist-button" href={`/list/add/${item.id}`}><InfoOutlinedIcon style={{marginRight: 10}} />Mais informações</a>
             </div>
             <div className="featured-genres">Gêneros: {genres.join(', ')}.</div>
           </div>

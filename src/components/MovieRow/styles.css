@@ -3,13 +3,15 @@
 }
 
 .movieRow h2 {
-  font-size: 1rem;
-  margin-left: 30px; 
+  font-size: 1.3rem;
+  margin-left: 50px; 
 }
+
 .movieRow-listArea {
   overflow-x: hidden;
-  padding-left: 1.5rem;
+  padding-left: 45px;
 }
+
 .movieRow-list {
   transition: all ease 1s;
 }
