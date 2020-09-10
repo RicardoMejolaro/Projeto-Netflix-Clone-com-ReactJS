@@ -23,7 +23,7 @@
 
 O projeto trata-se de um clone da tela home do site netflix, utilizando a API do
 site: <span>https://www.themoviedb.org/</span> Por questões das imagens serem 
-disponíbilizadas pela API na vertical, há alterações do layout e não foram implementadas funcionalidades extras, visto que o site mostra os trailers, resumos em videos e  nossa apresentação é efetuada apenas em imagens, assim com as limitações apresentadas o clone é referente ao layout em geral, com recursos idênticos e outros nem tanto, não sendo uma cópia exata.
+disponibilizadas pela API na vertical, há alterações do layout e não foram implementadas funcionalidades extras, visto que o site mostra os trailers, resumos em videos e  nossa apresentação é efetuada apenas em imagens, assim com as limitações apresentadas o clone é referente ao layout em geral, com recursos idênticos e outros nem tanto, não sendo uma cópia exata.
 
 ---
 
