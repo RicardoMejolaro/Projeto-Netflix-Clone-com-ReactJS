@@ -62,10 +62,10 @@ $ npm -v
 $ git clone https://github.com/RicardoMejolaro/Projeto-Netflix-Clone-com-ReactJS.git
 
 #Entrar no diretório
-$ cd netflix-clone
+$ cd netflixclone
 
 #Abrir projeto no VsCode ou com seu prompt de comando de preferência
-code . ||  cd netflix-clone (Passo acima) 
+code . ||  cd netflixclone (Passo acima) 
 
 #Com o terminal aberto rodar o comando
 $ npm install (para instalar as dependências necessárias)
