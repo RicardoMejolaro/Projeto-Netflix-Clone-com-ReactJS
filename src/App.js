@@ -1,4 +1,5 @@
 import React, {useEffect, useState} from 'react';
+
 import Api from './Api';
 
 import './App.css';
@@ -50,7 +51,7 @@ export default () => {
   return (
     <div className="page">
 
-      <Header black={blackHeader} />
+      <Header black={blackHeader}/>
 
       {featuredData && 
         <FeaturedMovie item={featuredData}/>

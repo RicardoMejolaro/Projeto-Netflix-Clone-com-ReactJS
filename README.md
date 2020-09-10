@@ -1,68 +1,92 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align=center>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Netflix_2015_N_logo.svg/220px-Netflix_2015_N_logo.svg.png" alt="Netflix clone" width="150px"/>
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+🚀 Netflix Clone da tela home com ReactJS ✔️ <br>
 
-### `yarn start`
+<img src="https://camo.githubusercontent.com/a45bd10a7ea5a30b5665d9869b0ce1324fa90350/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f7374617475732d6163746976652d737563636573732e737667" alt="Status" data-canonical-src="https://img.shields.io/badge/status-active-success.svg" style="max-width:100%;">
+<img src="https://camo.githubusercontent.com/890acbdcb87868b382af9a4b1fac507b9659d9bf/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6c6963656e73652d4d49542d626c75652e737667" alt="License" data-canonical-src="https://img.shields.io/badge/license-MIT-blue.svg" style="max-width:100%;">
+</h1>
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 📑️ Índice
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+- [O projeto](#📝️-Sobre)
+- [Apresentação Gif](#🚀️-Apresentação-do-site)
+- [Como usar](#💾️-Como-baixar/testar-o-projeto)
+- [Contato](#-Desenvolvido-com-💙️-por)
+- [Licença](#-Licença)
 
-### `yarn test`
+---
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 📝️ Sobre
 
-### `yarn build`
+O projeto trata-se de um clone da tela home do site netflix, utilizando a API do
+site: <span>https://www.themoviedb.org/</span> Por questões das imagens serem 
+disponíbilizadas pela API na vertical, há alterações do layout e não foram implementadas funcionalidades extras, visto que o site mostra os trailers, resumos em videos e  nossa apresentação é efetuada apenas em imagens, assim com as limitações apresentadas o clone é referente ao layout em geral, com recursos idênticos e outros nem tanto, não sendo uma cópia exata.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## 🚀️ Apresentação do site
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<h1>
+<img src="src/assets/netflix-clone.gif" alt="Netflix Clone">
+</h1>
 
-### `yarn eject`
+### 🚀️ Tecnologias utilizadas
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- ReactJS
+- API: <span>https://www.themoviedb.org/</span>
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### 💾️ Como baixar/testar o projeto
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- Você irá precisar instalar o [Git](https://git-scm.com/), [NodeJS](https://nodejs.org/pt-br/download/) + [Visual Studio code](https://code.visualstudio.com/).
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+# Versões mínimas ou superiores.
+$ node -v
+v12.16.3
 
-### Code Splitting
+$ npm -v
+6.14.5
+```
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+- Para configurar, no bash digite os seguinte códigos:
 
-### Analyzing the Bundle Size
+```bash
+# Clonar o repositório
+$ git clone https://github.com/RicardoMejolaro/Projeto-Netflix-Clone-com-ReactJS.git
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+#Entrar no diretório
+$ cd netflix-clone
 
-### Making a Progressive Web App
+#Abrir projeto no VsCode ou com seu prompt de comando de preferência
+code . ||  cd netflix-clone (Passo acima) 
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+#Com o terminal aberto rodar o comando
+$ npm install (para instalar as dependências necessárias)
 
-### Advanced Configuration
+#Agora só rodar o projeto com o comando
+$ npm start
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+#Pronto projeto abrirá em seu navegador padrão
+Agora é só testar em seu navegador!
 
-### Deployment
+```
+---
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+### Desenvolvido com 💙️ por
 
-### `yarn build` fails to minify
+***Ricardo Mejolaro*** 
+<br/> 
+<a href="https://www.linkedin.com/in/ricardo-mejolaro/">
+<img src="src/assets/linkedin.png">
+</a>
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+### Licença
+
+Este projeto está licenciado sob a licença MIT - consulte a página [LICENSE](https://opensource.org/licenses/MIT) para obter detalhes.
